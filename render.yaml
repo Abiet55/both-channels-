@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: mega-telegram-bot
+    runtime: docker
+    envVars:
+      - key: BOT_TOKEN
+        value: your-telegram-bot-token-here
+      - key: WEBHOOK_URL
+        value: https://your-app-name.onrender.com
